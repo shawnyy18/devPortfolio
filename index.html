@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Favicon -->
+  <link rel="icon" href="./images/logo.png" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- FontAwesome Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">
+      <!-- Logo Image -->
+      <img src="./images/logo.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top me-2"> <!-- Adjust the width and height as needed -->
+      Shawn’s DevHub
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto fw-bold text-darker">
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#tools">Tools</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Landing Section -->
+<section id="landing" class="text-center text-white d-flex align-items-center justify-content-center vh-100 bg-dark">
+  <div class="landing-content">
+    <h1 class="display-3 font-weight-bold animate__animated animate__fadeInUp">Welcome to My <strong class="text-darker font-weight-bold text-danger">Portfolio</strong></h1>
+    <h3 class="font-weight-bold animate__animated animate__fadeInUp animate__delay-1s text-warning">Shawn Ashlee Guarin</h3><hr class="fw-bold">
+      <h2 class="mb-0 font-italic h2 border border-primary p-3 text-shadow text-light fw-bold">"Think Out Of The Box."</h2>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section id="about" class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <!-- Profile Image -->
+      <div class="col-md-12 text-center">
+        <img src="./images/profile.jpg" class="img-fluid rounded-circle profile-img mb-4" alt="Shawn Ashlee Guarin Profile Picture">
+      </div>
+      
+      <!-- About Title -->
+      <div class="col-md-12 text-center">
+        <h2 id="about-title" class="font-weight-bolder display-4 text-left border-dark border-bottom d-inline-block mb-3 mb-lg-4 h1-about pb1">ABOUT ME</h2>
+        <h3 class="text-white fw-bold">Future <strong class="text-primary">Cybersecurity Professional</strong></h3>
+      </div>
+      
+      <!-- About Description -->
+      <div class="col-md-8 text-center">
+        <div class="about-description bg-dark p-4 rounded shadow-lg">
+          <p class="text-white">
+            Hello! I am <strong class="text-warning font-weight-bold">Shawn Ashlee Guarin,</strong> an irregular IT student with a deep passion for cybersecurity. 
+            I aspire to develop innovative and secure solutions that protect systems and data from emerging cyber threats, contributing to a safer digital world.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Tools Section -->
+<section id="tools" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center text-white fw-bold">Tools I Use</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fab fa-html5"></i> HTML & CSS</h5>
+            <p class="card-text">I use HTML5 and CSS3 for structuring and styling web pages.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fab fa-js"></i> JavaScript</h5>
+            <p class="card-text">I build interactive and dynamic websites with JavaScript.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fab fa-bootstrap"></i> Bootstrap</h5>
+            <p class="card-text">I use Bootstrap to create responsive and mobile-friendly websites.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-md-4 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fab fa-python"></i> Python</h5>
+            <p class="card-text">I utilize Python for scripting, data analysis, and building backend services and automation scripts.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fas fa-code"></i> Visual Studio Code</h5>
+            <p class="card-text">Visual Studio Code is my go-to code editor for all kinds of development due to its flexibility and extensive extensions.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title"><i class="fab fa-github"></i> GitHub</h5>
+            <p class="card-text">I use GitHub for version control, collaboration, and showcasing my projects and contributions.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 text-white fw-bold">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="card shadow-lg border-light rounded animate-on-scroll h-100 w-100">
+          <img src="./images/landingssite.png" class="card-img-top" alt="CITCLS SSITE" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold text-dark">CITCLS Website</h5>
+            <p class="card-text text-secondary flex-grow-1">Student Society on Information Technology Education (SSITE) is an organization made for CITCLS Students. It aims to promote and develop future graduates with the skills and values needed for their future. The organization aims to support and de-stress students with programs and activities.</p>
+            <a target="_blank" href="https://ssite-project.vercel.app/index.html" class="btn btn-primary mt-auto">View Project</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2 -->
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="card shadow-lg border-light rounded animate-on-scroll h-100 w-100">
+          <img src="./images/SHOES.jpg" class="card-img-top" alt="Canva Design" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold text-dark">Graphic Design</h5>
+            <p class="card-text text-secondary flex-grow-1">A stunning Canva design that combines creativity and clarity, perfect for making your brand or message stand out.</p>
+            <a href="#contact" class="btn btn-primary mt-auto">Message me</a>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4 d-flex">
+        <div class="card shadow-lg border-light rounded animate-on-scroll h-100 w-100">
+          <img src="./images/sensor.JPG" class="card-img-top" alt="Motion Sensor" style="height: 200px; object-fit: cover;">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title fw-bold text-dark">Raspberry Pi Project - Motion Sensor</h5>
+            <p class="card-text text-secondary flex-grow-1">This project features a basic motion sensor system powered by Python and Raspberry Pi. The setup detects motion through a sensor connected to the Raspberry Pi.</p>
+            <a target="_blank" href="./motiondetect.py" class="btn btn-primary mt-auto">Download Source Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center text-white fw-bold">Contact Me</h2>
+    <div class="row justify-content-center">
+      <!-- Contact Form -->
+      <div class="col-md-6 d-flex flex-column">
+        <form class="bg-dark p-4 rounded shadow-lg">
+          <div class="mb-3">
+            <label for="name" class="form-label fw-bold text-white">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your name">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label fw-bold text-white">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="mobile" class="form-label fw-bold text-white">Mobile number</label>
+            <input type="tel" class="form-control" id="mobile" placeholder="+639612345678">
+          </div>          
+          <div class="mb-3">
+            <label for="message" class="form-label fw-bold text-white">Message</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Your message"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+        <div class="text-center mt-3">
+          <div class="social-links">
+            <a target="_blank" href="https://www.facebook.com/cutekasiakoo" class="btn btn-primary me-2"><i class="fab fa-facebook"></i> Facebook</a>
+            <a target="_blank" href="https://www.linkedin.com/in/shawn-ashlee-guarin-7b9307250/" class="btn btn-secondary me-2"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a target="_blank" href="https://github.com/shawnyy18" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Embedded Google Map -->
+      <div class="col-md-6 d-flex flex-column">
+        <h4 class="text-center text-white fw-bold mt-md-0 mt-5">Find Me Here</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7705.917746060252!2d120.70959160000001!3d15.0503909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1726004781605!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="py-4 bg-dark text-white-50 text-center">
+    <div class="container">
+      <small>&copy; 2024 Shawn Ashlee Guarin. All Rights Reserved.</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Bootstrap and Animate.css -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  #landing {
+    background-image: url('./images/bg\ land.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .social-links a {
+    margin: 0 10px;
+  }
+
+  /* Adjust the font size for the navbar-brand */
+.navbar-brand {
+    font-size: 1.5rem; /* Default size for larger screens */
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.2rem; /* Smaller size for tablets */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand {
+      font-size: 1rem; /* Smaller size for mobile phones */
+    }
+  }
+  
+  /* Make the profile image round */
+.profile-img {
+    border-radius: 50%; /* Makes the image circular */
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Ensures the image is a square */
+    object-fit: cover; /* Ensures the image covers the circle nicely */
+    border: 5px solid #fff; /* Optional: Adds a white border around the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+  }
+
+  /* CSS Animations */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-on-scroll {
+    opacity: 0;
+    animation: fadeIn 1s ease-out forwards;
+  }
+  
+  /* Create delay based on the element's position */
+  .animate-on-scroll:nth-child(1) {
+    animation-delay: 0.5s;
+  }
+  .animate-on-scroll:nth-child(2) {
+    animation-delay: 1s;
+  }
+  .animate-on-scroll:nth-child(3) {
+    animation-delay: 1.5s;
+  }
+
+  #about {
+    background-image: url('./images/plain-smooth-green-wall-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  #about .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  #about-title {
+    color: white;
+  }
+  
+  #tools{
+    background-image: url('./images/plain-smooth-green-wall-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  #projects{
+    background-image: url('./images/plain-smooth-green-wall-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
+
+  #contact{
+    background-image: url('./images/plain-smooth-green-wall-texture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+  }
